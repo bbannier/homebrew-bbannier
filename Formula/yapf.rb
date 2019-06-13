@@ -2,8 +2,8 @@ class Yapf < Formula
   include Language::Python::Virtualenv
 
   homepage "https://github.com/google/yapf"
-  url "https://files.pythonhosted.org/packages/2a/78/066d92807c532b4bdbfece8fcb5a20130df0476dfa924d6108f72f4efabf/yapf-0.25.0.tar.gz"
-  sha256 "8aa7f9abdb97b4da4d3227306b88477982daafef0a96cc41639754ca31f46d55"
+  url "https://codeload.github.com/google/yapf/tar.gz/v0.27.0"
+  sha256 "366a178882e4701d3522298c92f89cc41b47c8df77035c45f5b4ad0e56233b93"
   depends_on "python3"
 
   def install
